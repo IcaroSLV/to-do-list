@@ -56,7 +56,7 @@ function App() {
 
   const handleDelete = async(id) => {
 
-    await fetch("http://localhost:5000/todos" + id,{
+    await fetch("http://localhost:5000/todos/" + id,{
         method: "DELETE",
       })
 
